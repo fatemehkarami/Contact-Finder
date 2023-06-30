@@ -1,38 +1,84 @@
-.App {
+.container {
+  max-width: 800px;
+  padding: 50px 100px;
+  background-color: #f8f9fa;
+  margin: 0 auto;
+}
+
+h1 {
   text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Arial", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-page {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-input {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  height: 20px;
+  width: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact-details-page {
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.no-contacts {
+  text-align: center;
+  margin-top: 40px;
+  color: red;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.table th,
+.table td {
+  padding: 12px 24px;
+  color: #333;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.btn {
+  height: 40px;
+  line-height: 24px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 16px;
+  border-radius: 4px;
+  border: solid;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  cursor: pointer;
 }
